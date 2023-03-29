@@ -1,0 +1,85 @@
+#bgvid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  
+}
+
+.video-container{
+  position: abo;
+}
+.text-container{
+  position: absolute;  
+  text-align: right;
+  padding-left: 40%;
+  margin-right: 80px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  animation-name: bounce;
+  animation-duration: 4s;
+
+  
+}
+
+.intro-text{
+  color: aliceblue;
+  font-size: 60px;
+  text-align: right;
+
+  
+  
+}
+
+#intro-para{
+  font-size: 30px;
+
+  animation-name: bounce;
+  animation-duration: 4s;
+
+  
+  
+}
+
+.names{
+  position: absolute;    
+  margin-top: 50vh;
+
+  animation-name: bounce;
+  animation-duration: 4s;
+
+}
+
+#ramees{
+  margin-left:75vh ;
+  margin-top: 5vh;
+  animation-name: bounce;
+  animation-duration: 2s;
+
+}
+#hamdhan{
+  margin-left:110vh ;
+  margin-top: 5vh;
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+#shajanthan{
+  margin-left: 160vh ;
+  animation-name: bounce;
+  animation-duration: 4s;
+}
+
+#sajee{
+  margin-left: 50vh;
+  animation-name: bounce;
+  animation-duration: 3s;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateX(-60px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+}
